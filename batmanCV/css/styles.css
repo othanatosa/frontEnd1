@@ -1,0 +1,41 @@
+
+.Logo{
+    text-align: center;
+    background-color: #E5E5E5;
+}
+
+h1 {
+    background-color: #C4C4C4;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #005677;
+}
+
+main{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 35%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+h3 {
+    background-color: #C4C4C4;
+    text-align: center;
+    text-transform: uppercase;
+    color: #005677;
+    letter-spacing: 5px;
+}
+
+span{
+    font-weight: bold;
+}
+
+footer{
+    background-color: #005677;
+    color: white;
+    text-align: center;
+    ;
+
+}
+
