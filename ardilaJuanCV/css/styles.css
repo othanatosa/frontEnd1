@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700;900&display=swap');
+
+
+/* Header */
+
+.Logo {
+    text-align: center;
+    background-color: #a2b9bc;
+    color: #005677;
+    
+}
+
+.Logo nav{
+    font-family: roboto;
+    text-align: initial;
+}
+
+/* Main */
+
+h1 {
+    font-family: roboto;
+    background-color: #a2b9bc;
+    text-align: center;
+    letter-spacing: 10px;
+    color: #005677;
+}
+
+.container{
+    background-image: url('/ardilaJuanCV/img/code-1839406_640.jpeg');
+    background-size: cover;  
+    height: 400px; 
+    position: relative;
+    margin: 40px auto;
+    width: 70%;
+}
+
+
+
+
+h3 {
+    background-color: #a2b9bc;
+    text-align: center;
+    text-transform: uppercase;
+    color: #005677;
+    letter-spacing: 5px;
+}
+
+span {
+    font-weight: bold;
+}
+
+/* Header */
+
+footer {
+    background-color: #6b5b95;
+    color: white;
+    text-align: center;
+    
+
+}
