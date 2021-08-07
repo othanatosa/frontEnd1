@@ -1,0 +1,327 @@
+/* Estilos Generales */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Roboto';
+  }
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+
+header{
+    background-color: #222222;
+    color: #F3F3F3;
+}
+
+
+
+.primeraLista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.primeraLista > div{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5%;
+    padding: 1%;
+}
+
+.primeraLista > div>p{
+    padding: 5px;
+}
+
+
+.ofertas {
+    margin-left: 5%;
+}
+
+
+
+.segundaLista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0A83E;
+    color: white;
+    width: 100%;
+
+}
+
+.segundaLista span {
+    
+    left: 0px;
+    color:white;
+}
+
+nav{
+    width: 40%;
+}
+
+.icono-menu{
+    color: white;
+    display: none;
+   /* visibility: hidden;*/
+}
+
+ul{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+ul>li {
+    margin: 5px;
+}
+
+/* Main */
+
+h1{
+    color: black;
+}
+
+.banner{
+    background-image:  url("../img/bowl-and-pet-daities-on-green-background\ 1.png");  
+    background-size: cover;  
+    height: 400px; 
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.subanner2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.parrafoSuperior{
+    font-weight: 400;
+    font-size: 30px;
+    color: black;
+    width: 141px;    
+    background-color: #FFFFFF;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.parrafoIntermedio{
+    
+    margin-top: 10px;
+    font-size: 16px;
+}
+.parrafoInferior{
+    width: 141px;
+    Height: 49px;
+    background-color: #F0A83E;
+    padding: 23px 10px 40px 23px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.opacidad{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.3);
+    top:0;
+}
+
+.tituloCentral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.tituloCentral >h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.tituloCentral > img{
+    width: fit-content;
+    
+}
+.tituloCentral > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuAbajo{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.churrasquito{
+    font-size: 1rem;
+    background-image: url("../img/churrasquito.png");
+    /*background-size: cover;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    /*margin-left: 5%;*/
+}
+
+.comedero{
+    font-size: 15px;
+    background-image: url("../img/comedero.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.huesito{
+    font-size: 15px;
+    background-image: url("../img/comedero.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10%;
+}
+
+/* Footer */
+
+.boletin{
+    
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+.suscripcion{
+    margin-left: 5%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.suscripcion>p{
+    margin-left: 0.5cm;
+}
+
+
+.formularioCorreo{
+    margin-right: 5%;
+}
+
+input[type=submit]{
+    background-color: #3C2313;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.datosDeContacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3C2313;
+}
+
+.tiposContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color:white;
+    left: 10%;
+    margin-top: 0.5cm;
+    margin-bottom: 0.5cm;
+}
+
+.superior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.intermedio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.inferior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.tiposContacto p{
+    color: #8A8787;
+}
+
+.tiposContacto i{
+    margin-right: 1cm;
+}
+
+.logoFooter{
+    margin: 5%;
+
+}
+.logoFooter span{
+    color: white;
+}
+
+.logoFooter h3{
+    color: #F0A83E;
+}
+
+.derechos{
+    background-color: #222222;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.5%;
+}
+
+/*** Responsive */
+
+
+@media  screen and (max-width: 480px){
+    .primeraLista{
+        display: none;
+    }
+
+    nav{
+        display: none;
+
+    }
+
+    .icono-menu{
+        display: block;
+    }
+}
